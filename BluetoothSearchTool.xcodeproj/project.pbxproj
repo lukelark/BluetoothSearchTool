@@ -10,10 +10,11 @@
 		84CDA7E61A84B9940005EBE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDA7E51A84B9940005EBE0 /* main.m */; };
 		84CDA7E91A84B9940005EBE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDA7E81A84B9940005EBE0 /* AppDelegate.m */; };
 		84CDA7EC1A84B9940005EBE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDA7EB1A84B9940005EBE0 /* ViewController.m */; };
-		84CDA7EF1A84B9940005EBE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CDA7ED1A84B9940005EBE0 /* Main.storyboard */; };
 		84CDA7F11A84B9940005EBE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CDA7F01A84B9940005EBE0 /* Images.xcassets */; };
-		84CDA7F41A84B9940005EBE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CDA7F21A84B9940005EBE0 /* LaunchScreen.xib */; };
 		84CDA8001A84B9940005EBE0 /* BluetoothSearchToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDA7FF1A84B9940005EBE0 /* BluetoothSearchToolTests.m */; };
+		84CDA80A1A84BCC40005EBE0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CDA8091A84BCC40005EBE0 /* CoreBluetooth.framework */; };
+		84CDA80C1A84C3180005EBE0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CDA80B1A84C3180005EBE0 /* ViewController.xib */; };
+		84CDA80E1A84C4030005EBE0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CDA80D1A84C4030005EBE0 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,13 @@
 		84CDA7E81A84B9940005EBE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84CDA7EA1A84B9940005EBE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84CDA7EB1A84B9940005EBE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84CDA7EE1A84B9940005EBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84CDA7F01A84B9940005EBE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		84CDA7F31A84B9940005EBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84CDA7F91A84B9940005EBE0 /* BluetoothSearchToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothSearchToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CDA7FE1A84B9940005EBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84CDA7FF1A84B9940005EBE0 /* BluetoothSearchToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothSearchToolTests.m; sourceTree = "<group>"; };
+		84CDA8091A84BCC40005EBE0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		84CDA80B1A84C3180005EBE0 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		84CDA80D1A84C4030005EBE0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CDA80A1A84BCC40005EBE0 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,8 @@
 		84CDA7D71A84B9940005EBE0 = {
 			isa = PBXGroup;
 			children = (
+				84CDA80D1A84C4030005EBE0 /* Default-568h@2x.png */,
+				84CDA8091A84BCC40005EBE0 /* CoreBluetooth.framework */,
 				84CDA7E21A84B9940005EBE0 /* BluetoothSearchTool */,
 				84CDA7FC1A84B9940005EBE0 /* BluetoothSearchToolTests */,
 				84CDA7E11A84B9940005EBE0 /* Products */,
@@ -85,9 +90,8 @@
 				84CDA7E81A84B9940005EBE0 /* AppDelegate.m */,
 				84CDA7EA1A84B9940005EBE0 /* ViewController.h */,
 				84CDA7EB1A84B9940005EBE0 /* ViewController.m */,
-				84CDA7ED1A84B9940005EBE0 /* Main.storyboard */,
+				84CDA80B1A84C3180005EBE0 /* ViewController.xib */,
 				84CDA7F01A84B9940005EBE0 /* Images.xcassets */,
-				84CDA7F21A84B9940005EBE0 /* LaunchScreen.xib */,
 				84CDA7E31A84B9940005EBE0 /* Supporting Files */,
 			);
 			path = BluetoothSearchTool;
@@ -199,9 +203,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CDA7EF1A84B9940005EBE0 /* Main.storyboard in Resources */,
-				84CDA7F41A84B9940005EBE0 /* LaunchScreen.xib in Resources */,
+				84CDA80C1A84C3180005EBE0 /* ViewController.xib in Resources */,
 				84CDA7F11A84B9940005EBE0 /* Images.xcassets in Resources */,
+				84CDA80E1A84C4030005EBE0 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +246,6 @@
 			targetProxy = 84CDA7FA1A84B9940005EBE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		84CDA7ED1A84B9940005EBE0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84CDA7EE1A84B9940005EBE0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84CDA7F21A84B9940005EBE0 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84CDA7F31A84B9940005EBE0 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84CDA8011A84B9940005EBE0 /* Debug */ = {
@@ -345,9 +330,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Boris Brault (KQG6RL87Y5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Boris Brault (KQG6RL87Y5)";
 				INFOPLIST_FILE = BluetoothSearchTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,9 +344,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: KRONOZ LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: KRONOZ LLC";
 				INFOPLIST_FILE = BluetoothSearchTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
